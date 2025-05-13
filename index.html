@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <form action="#">
+        <input class="js-input-a" type="number" />
+        <input class="js-input-b" type="number" />
+        <select class="js-select-operation">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <button class="js-btn-result" type="button">Результат</button>
+    </form>
+
+    <p class="js-output"></p>
+
+    <script type="module" src="./math.js"></script>
+    <script type="module" src="./calculator.js"></script>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
