@@ -1,43 +1,35 @@
-# Калькулятор
-Простейший калькулятор. Суть программы заключается в том, чтобы дать возможность пользователю вычислять простые операции из браузера. Здесь написана бизнес логика с функциями а также простой ui интерфейс для пользователя.
+# Calculator
 
-## Бизнес логика VS UI логика
-На примере этого приложения мы можем рассмотреть что такое бизнес и UI.
-
-### Бизнес логика
-это мозги приложения. Правила, вычисления и работа с данными.
-
-Примеры: 
-+ Деление одного числа на другое. 
-+ Расчёт суммы заказа (цена × количество). 
-+ Проверка пароля на сложность. 
-+ Фильтрация товаров по категориям.
-
-Где находится: Отдельные функции/классы (например, calculate.js). Не зависит от кнопок/форм (можно использовать в консоли или мобильном приложении).
-
-### UI логика
-Это "поведение" интерфейса — реакция на действия пользователя.
-
-Примеры: 
-+ Показать ошибку, если поле пустое. 
-+ Анимация загрузки при отправке формы. 
-+ Обновление текста кнопки после клика.
-
-Где находится: Обработчики событий (addEventListener).
- Изменение DOM (textContent, classList).
-
-## Пример бизнес логики
-Бизнес логика- чистая математика, без DOM.
-
-```JavaScript
-const totalPrice = (price, count) => price \* count;
+```bash
+> simple browser calculator
+> business logic • ui logic
 ```
 
-## Пример UI логики
-Работа с интерфейсом
+A simple calculator built with JavaScript, focused on separating business logic from UI logic.
 
-```Javascript
-button.addEventListener('click', () => {
-resultElement.textContent = totalPrice(10, 2);
-});
+## stack
+
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript)
+![HTML5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5)
+
+## features
+
+- basic arithmetic operations
+- separated calculation logic
+- simple browser UI
+- DOM event handling
+
+## structure
+
+```bash
+calculator.js  # calculator logic
+math.js        # math functions
+index.js       # UI events
+index.html     # page layout
+```
+
+## status
+
+```bash
+> learning project
 ```
