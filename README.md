@@ -1,10 +1,20 @@
 # Calculator
 
-Browser calculator with separated business logic and UI logic.
+```bash
+> browser calculator
+> separated business logic and ui logic
+```
 
-## Files
+## stack
 
-- `calculator.js` вЂ” calculation engine
-- `math.js` вЂ” math helpers
-- `index.js` вЂ” DOM event binding
-- `index.html` вЂ” layout
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript)
+![HTML5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5)
+
+## files
+
+```bash
+calculator.js  # calculation engine
+math.js        # math helpers
+index.js       # dom event binding
+index.html     # layout
+```
